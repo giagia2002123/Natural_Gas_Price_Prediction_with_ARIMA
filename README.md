@@ -27,7 +27,7 @@ The dataset used for this project is from the EIA's historical Henry Hub Natural
 
 The figure below illustrates the original Henry Hub Natural Gas Spot Prices from 2010 to 2024.
 
-![Natural Gas Prices (2010 to 2024)](./images/natural_gas_prices_2010_to_2024.png)
+![Natural Gas Prices (2010 to 2024)](./Images/natural_gas_prices_2010_to_2024.png)
 
 ## Running the Code
 
@@ -56,21 +56,21 @@ Additionally, there is functionality to input a specific date, and the model wil
 
 The ARIMA model was chosen after running an auto-ARIMA process. The model was tested using a train-test split, where the last 6 months of the data were reserved as the test set. The following figure shows the testing performance of the ARIMA model:
 
-![ARIMA Model Testing](./images/model_testing_ARIMA.png)
+![ARIMA Model Testing](./Images/model_testing_ARIMA.png)
 
 After testing, the model was trained on the entire dataset and used to predict natural gas prices for the next 12 months, as shown in the figure below:
 
-![ARIMA Model Prediction](./images/model_prediction_ARIMA.png)
+![ARIMA Model Prediction](./Images/model_prediction_ARIMA.png)
 
 ### SARIMA Model
 
 Similarly, the SARIMA model was tested using a train-test split, with the last 6 months reserved for testing. The SARIMA model captures the seasonality of the data better. Below is the testing performance:
 
-![SARIMA Model Testing](./images/model_testing_SARIMA.png)
+![SARIMA Model Testing](./Images/model_testing_SARIMA.png)
 
 The following figure displays the SARIMA model’s predictions for the next 12 months, based on the entire dataset:
 
-![SARIMA Model Prediction](./images/model_prediction_SARIMA.png)
+![SARIMA Model Prediction](./Images/model_prediction_SARIMA.png)
 
 ## Results
 
