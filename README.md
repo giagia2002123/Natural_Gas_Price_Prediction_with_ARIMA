@@ -61,7 +61,7 @@ It is important to note that the `diff` function may occasionally produce NaN va
 
 ## Author
 
-- **Ngo Trieu Gia Gia** - [Your GitHub Profile](https://github.com/giagia2002123)
+- **Ngo Trieu Gia Gia** - [GitHub Profile](https://github.com/giagia2002123)
 
 ## Acknowledgments
 
