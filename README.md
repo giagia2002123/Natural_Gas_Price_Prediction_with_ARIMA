@@ -88,6 +88,7 @@ It’s important to handle missing values carefully, as the diff function may oc
   - `pandas` for data manipulation
   - `matplotlib` and `seaborn` for visualization
   - `statsmodels` for time series modeling
+  - `pmdarima` for *auto-arima* function
 
 ## Author
 
